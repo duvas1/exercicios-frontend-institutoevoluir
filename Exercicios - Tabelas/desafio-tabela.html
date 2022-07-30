@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Tabela</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+        h1 {
+            position: relative;
+            top: 0px;
+            left: 25%;
+            text-align: center;
+            color: rgb(161, 23, 23);
+            max-width: 800px;
+        }
+        .tabela {
+            color: black;
+            max-width: 200px;
+            text-align: center;
+            position: relative;
+            top: 160px;
+            left: 40px;
+        }
+        .artilharia {
+            color: black;
+            max-width: 200px;
+            position: relative;
+            top: 110px;
+            left: 965px;
+            text-align: center;
+        }
+        table {
+            position: relative;
+            top: 100px;
+            left: 100px;
+            border:  2px solid black;
+            color: black;
+            border-collapse: collapse;
+            padding: 30px;
+        }
+        table tr th {
+            border-bottom: 2px solid black;
+        }
+        img {
+            display: block;
+        }
+        .artilheiros {
+            position: relative;
+            bottom: 70px;
+            left: 1000px;
+            justify-content: center;
+            border: 2px solid black;
+            color: black;
+            background-color: white;
+            max-width: 350px;
+            height: 165px;
+        }
+        .artilheiros ol {
+            margin-top: 30px;
+            margin-left: 45px;
+            padding: 5px;
+            line-height: 200%;
+        }
+        td {
+            padding: 5px;
+        }
+        .guarany {
+            background-color: rgb(207, 206, 206);
+        }
+        .sapucaiense {
+            background-color: white;
+        }
+        .riograndense {
+            background-color: rgb(207, 206, 206);
+        }
+        .gramadense {
+            background-color: white;
+        }
+        .site {
+            letter-spacing: 5px;
+            position: relative;
+            left: 45%;
+        }
+        .voltar {
+            position: relative;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>CAMPEONATO GAÚCHO 2022</h1>
+    <h2 class="tabela">TABELA</h2>
+    <h2 class="artilharia">ARTILHARIA</h2>
+    <table width="800px">
+        <thead>
+            <th></th>
+            <th></th>
+            <th>Classificação</th>
+            <th>P</th>
+            <th>J</th>
+            <th>V</th>
+            <th>E</th>
+            <th>D</th>
+            <th>GP</th>
+            <th>GC</th>
+            <th>SG</th>
+            <th>%</th>
+        </thead>
+        <tbody>
+            <tr class="guarany">
+                <td>1</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Guarany_Futebol_Clube_logo.svg/1200px-Guarany_Futebol_Clube_logo.svg.png" title="Guarany de Bagé" alt="Brasão Guarany de Bagé" width="18px"></td>
+                <td>Guarany de Bagé</td>
+                <td align="center">15</td>
+                <td align="center">5</td>
+                <td align="center">5</td>
+                <td align="center">0</td>
+                <td align="center">0</td>
+                <td align="center">35</td>
+                <td align="center">3</td>
+                <td align="center">32</td>
+                <td align="center">100</td>
+            </tr>
+            <tr class="sapucaiense">
+                <td>2</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/pt/f/f5/GE_Sapucaiense.gif" title="Sapucaiense" alt="Brasão Sapucaiense" width="18px"></td>
+                <td>Sapucaiense</td>
+                <td align="center">7</td>
+                <td align="center">5</td>
+                <td align="center">2</td>
+                <td align="center">1</td>
+                <td align="center">2</td>
+                <td align="center">12</td>
+                <td align="center">8</td>
+                <td align="center">4</td>
+                <td align="center">46</td>
+            </tr>
+            <tr class="riograndense">
+                <td>3</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/pt/1/10/FCRiograndense.png" title="Riograndense" alt="Brasão Riograndense" width="18px"></td>
+                <td>Riograndense</td>
+                <td align="center">7</td>
+                <td align="center">5</td>
+                <td align="center">2</td>
+                <td align="center">1</td>
+                <td align="center">2</td>
+                <td align="center">16</td>
+                <td align="center">12</td>
+                <td align="center">4</td>
+                <td align="center">46</td>
+            </tr>
+            <tr class="gramadense">
+                <td>4</td>
+                <td><img src="https://cegramadense.com.br/wp-content/uploads/2020/03/Gramadense-1-1024x1024.png" title="Gramadense" alt="Brasão Gramadense" width="18px"></td>
+                <td>Gramadense</td>
+                <td align="center">0</td>
+                <td align="center">5</td>
+                <td align="center">0</td>
+                <td align="center">0</td>
+                <td align="center">5</td>
+                <td align="center">2</td>
+                <td align="center">15</td>
+                <td align="center">13</td>
+                <td align="center">0</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="artilheiros">
+        <ol>
+            <li><b>Edgar Alemão, 5 gols.</b></li>
+            <li>Ronaldinho Gramadaense, 3 gols.</li>
+            <li>Alê Menezes, 2 gols.</li>
+        </ol>
+    </div>
+    <p class="site">WWW.FGF.COM.BR</p>
+    <a class="voltar" href="#">↩Voltar</a>
+</body>
+</html>
